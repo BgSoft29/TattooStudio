@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 :root {
     --main-white: #f0f0f0;
     --main-red: #be3144;
@@ -133,15 +136,27 @@
     background-size: cover;
     background-blend-mode: soft-light;
   }
+  .imagen{
+    height: 30rem;
+  }
+  .img{
+    height: 100%;
+  }
   .welcome-section h1{
-    font-size: 4.8rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .welcome-section > p {
+    font-family: 'Lobster', cursive;
     font-size: 4rem;
     font-weight: bold;
     font-style: italic;
-    color: var(--main-red);
+    color: #f7e5d7;
   }
   
   /* Projects section */
@@ -155,8 +170,9 @@
   .projects-section-header {
     max-width: 640px;
     margin: 0 auto 6rem auto;
-    border-bottom: 0.2rem solid var(--main-white);
+    border-bottom: 0.2rem solid black;
     color: black;
+    font-size: 4rem;
   }
   
   @media (max-width: 28.75em) {
@@ -202,7 +218,7 @@
   }
   
   .project-image {
-    height: calc(100% - 6.8rem);
+    height: 100%;
     width: 100%;
     object-fit: cover;
   }
@@ -225,7 +241,9 @@
   }
   
   .btn-show-all:hover {
-    background: var(--main-red);
+    background: #f7e5d7;
+    color: black;
+    border: solid 1px black;
   }
   
   .btn-show-all:hover > i {
@@ -258,7 +276,7 @@
   }
   
   .contact-section-header > h2 {
-    font-size: 6rem;
+    font-size: 4.3rem;
   }
   
   @media (max-width: 28.75em) {
